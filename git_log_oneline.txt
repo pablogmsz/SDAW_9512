@@ -1,0 +1,5 @@
+746deda Merge pull request #1 from pablogmsz/rama1_PabloGomez
+4c32f9e rama1: añadir explicación de comandos Git
+4ebf337 Mejoras en README: explicación de cómo ejecutar
+073334e Inicial: estructura base del proyecto
+a803742 Initial commit
