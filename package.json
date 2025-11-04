@@ -1,0 +1,14 @@
+{
+  "name": "sdaw_9512",
+  "version": "1.0.0",
+  "description": "Proyecto base SDAW",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "author": "Pablo Gómez Sánchez",
+  "license": "MIT"
+}
