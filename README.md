@@ -76,5 +76,28 @@ Proyecto de ejemplo para la práctica de Git y GitHub. Contiene una pequeña app
    - `git merge <rama>` : Fusiona una rama en la actual.
    - `git push` : Envía commits al repositorio remoto.
    - `git pull` : Trae y fusiona cambios del remoto.
+   ```
 
    Aquí lo que estamos haciendo es la creación de ramas y trabajar desde ella creando cambios y subiéndolos al repositorio remoto para poder reflejar el trabajo de ambas en el historial de `commits` del repositorio remoto.
+
+   <br>
+
+   ```bash
+   git checkout main
+   git checkout -b rama2_PabloGomez
+   git add README.md git_log_oneline.txt
+   git commit -m "rama2: añadir git log --oneline"
+   git push -u origin rama2_PabloGomez
+   ```
+
+   Aquí podemos leer el contenido del archivo git_log_oneline.txt:
+
+   <br>
+
+   ```bash
+   746deda Merge pull request #1 from pablogmsz/rama1_PabloGomez
+   4c32f9e rama1: añadir explicación de comandos Git
+   4ebf337 Mejoras en README: explicación de cómo ejecutar
+   073334e Inicial: estructura base del proyecto
+   a803742 Initial commit
+   ```
