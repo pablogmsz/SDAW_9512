@@ -39,3 +39,22 @@ Proyecto de ejemplo para la práctica de Git y GitHub. Contiene una pequeña app
    git add .
    git commit -m "Inicial: estructura base del proyecto"
    ```
+2. Crear el repositorio remoto en GitHub llamado `SDAW_9512` y conectarlo con el local:
+   ```bash
+   git remote add origin https://github.com/miusuario/SDAW_9512.git 
+   git branch -M main
+   git push -u origin main
+
+   *Si tienes algún problema con el `push`, haz un `pull origin main --rebase` 
+   para poder estar perfectamente sincronizados entre si los 2 repositorios, 
+   dejando así un historial de `commits` más limpio.*
+   ```
+3. Creando ramas de trabajo:
+   ```bash
+   git add README.md
+   git commit -m "Mejoras en README: explicación de cómo ejecutar"
+   git push
+   ```
+   
+   Ahora hasta el momento lo que hemos hecho (como se puede observar arriba), ha sido la inicialización del repositorio local, la creación del remoto, y la vinculación entre ellos. Todo eso está registrado en los comandos que hay arriba. Ahora procederemos con el control de versiones, como por ejemplo creando un `commit` nuevo de
+   la edición de este fichero con los comandos nuevos y esta explicación.
